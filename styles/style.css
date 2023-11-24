@@ -139,15 +139,24 @@
         left: 20px;
     }
 
+    .header__theme-menu {
+        margin-top: 110px;
+    }
+
     .header__logo {
         right: 30px;
         top: 20px;
     }
 
+    .header__title {
+        padding-top: 100px;
+        margin-left: -20px;
+    }
+
     .header__title-description {
         justify-self: end;
         width: 50%;
-        margin-bottom: 183px;
+        margin-bottom: 163px;
     }
 }
 
@@ -203,6 +212,7 @@
     .content {
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 20px;
     }
 
     .content__section-header {
@@ -221,6 +231,14 @@
 
     .content__section-text {
         margin-bottom: 20px;
+    }
+
+    .content__section-what {
+        padding-top: 15px;
+    }
+
+    .content__section-howto {
+        padding-top: 25px;
     }
 }
 
@@ -302,8 +320,10 @@
 @media (width >= 768px) {
 
     .content__section-images-set {
+        padding-top: 15px;
         display: grid;
         gap: 20px;
+        height: 794px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         grid-template-areas:
@@ -390,8 +410,12 @@
 @media (width >= 768px) {
 
     .footer {
-        padding: 20px 20px;
+        margin-top: 60px;
         min-height: 1024px;
+    }
+
+    .footer__title {
+        padding-top: 15px;
     }
 
     .footer::after {
