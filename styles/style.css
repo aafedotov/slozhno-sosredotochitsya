@@ -11,6 +11,7 @@
 .header {
     display: grid;
     gap: 55px;
+    max-height: 668px;
     grid-template-rows: repeat(2, 1fr);
     padding: 10px 10px;
     position: relative;
@@ -62,7 +63,7 @@
 
 .header__theme-menu {
     justify-self: end;
-    padding-top: 75px;
+    padding-top: 60px;
     align-items: center;
 }
 
@@ -79,7 +80,8 @@
     font-size: 18px;
     color: var(--bg-accent-color);
     text-transform: lowercase;
-    padding: 2px 25px;
+    padding: 2px 13px;
+
 }
 
 .header__theme-menu-button:hover {
@@ -100,6 +102,7 @@
 }
 
 .header__title {
+    padding-top: 10px;
     color: var(--header-color);
     text-shadow: 4px 4px 0 var(--bg-accent-color);
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -116,7 +119,7 @@
     background-color: var(--bg-accent-color);
     margin-bottom: 66px;
     font-size: 18px;
-    padding: 5px 5px;
+    padding: 2px 0;
 }
 
 @media (width >= 768px) {
