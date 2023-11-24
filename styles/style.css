@@ -283,12 +283,12 @@
 }
 
 .content__section-images {
-    margin-top: 44px;
+    margin-top: 60px;
 }
 
 .content__section-images-set {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     flex-direction: column;
     margin-top: 10px;
 }
