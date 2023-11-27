@@ -272,8 +272,8 @@
     }
 
     .content__section-what {
-        gap: 0px;
-        margin-top: 30px;
+        gap: 0;
+        margin-top: 38px;
     }
 
     .content__section-what article {
@@ -379,6 +379,12 @@
 }
 
 @media (width >= 1024px) {
+
+    .content__section-howto {
+        margin-top: 40px;
+        gap: 10px;
+    }
+
     .content__section-images-set {
         height: 1060px;
     }
