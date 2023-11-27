@@ -169,6 +169,12 @@
     .header__theme-menu {
         justify-self: center;
         padding-top: 0;
+        margin-top: 0;
+    }
+
+    .header__title {
+        padding-top: 30px;
+        font-size: 157px;
     }
 
     .header__theme-menu-list {
@@ -176,7 +182,7 @@
     }
 
     .header__title-description {
-        margin-bottom: 134px;
+        margin-bottom: 110px;
     }
 }
 
@@ -255,8 +261,19 @@
 
 @media (width >= 1024px) {
 
+    .content__section-reasons {
+        gap: 10px;
+        margin-top: 5px;
+
+    }
+
     .content__section-header {
         max-width: 315px;
+    }
+
+    .content__section-what {
+        gap: 0px;
+        margin-top: 30px;
     }
 
     .content__section-what article {
@@ -361,6 +378,12 @@
 
 }
 
+@media (width >= 1024px) {
+    .content__section-images-set {
+        height: 1060px;
+    }
+}
+
 .footer {
     display: flex;
     width: 100%;
@@ -430,7 +453,12 @@
 }
 
 @media (width >= 1024px) {
+
     .footer {
         min-height: 768px;
+    }
+
+    .footer__title {
+        font-size: 157px;
     }
 }
