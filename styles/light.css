@@ -11,14 +11,11 @@
     --button-hover-color: rgba(50, 49, 45, 0.40);
     --button-focus-color: #353430;
     --header-bg-image: url("../images/cover-image-light.png");
+    --content-header-color: #353430;
 }
 
 .page.theme_light .header__logo {
     display: none;
-}
-
-.page.theme_light .content__section-header {
-    color: var(--text-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,13 +33,11 @@
         --button-hover-color: rgba(50, 49, 45, 0.40);
         --button-focus-color: #353430;
         --header-bg-image: url("../images/cover-image-light.png");
+        --content-header-color: #353430;
     }
 
     .header__logo {
         display: none;
     }
-
-    .content__section-header {
-        color: var(--text-color);
-    }
 }
+

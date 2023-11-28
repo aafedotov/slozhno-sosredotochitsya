@@ -193,7 +193,7 @@
 }
 
 .content__section-header {
-    color: var(--bg-accent-color);
+    color: var(--content-header-color);
     line-height: 23px;
     font-weight: bold;
     font-size: 18px;
