@@ -15,7 +15,7 @@
     grid-template-rows: repeat(2, 1fr);
     padding: 10px 10px;
     position: relative;
-    background-image: url("../images/cover-image-dark.png");
+    background-image: var(--header-bg-image);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,14 +78,14 @@
     border: 1px solid transparent;
     font-family: var(--main-font);
     font-size: 18px;
-    color: var(--bg-accent-color);
+    color: var(--button-color);
     text-transform: lowercase;
     padding: 2px 13px;
 
 }
 
 .header__theme-menu-button:hover {
-    border: 1px solid rgba(255, 0, 112, 0.40);
+    border: 1px solid var(--button-hover-color);
 }
 
 .header__theme-menu-button:focus {
@@ -94,11 +94,11 @@
 }
 
 .header__theme-menu-button:focus-visible {
-    border-bottom: var(--bg-accent-color) solid 1px;
+    border-bottom: var(--button-focus-color) solid 1px;
 }
 
 .header__theme-menu-button_active {
-    border: 1px solid var(--bg-accent-color);
+    border: 1px solid var(--button-active-color);
 }
 
 .header__title {

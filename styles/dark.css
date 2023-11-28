@@ -6,6 +6,10 @@
     --accent-color: #000028;
     --header-color: #DB00FF;
     --decor-color: #FF0070;
+    --button-color: #FF0070;
+    --button-active-color: #FF0070;
+    --button-hover-color: rgba(255, 0, 112, 0.40);
+    --button-focus-color: #FF0070;
 }
 
 
@@ -85,21 +89,9 @@
 
 }
 
-.page.theme_dark .header__theme-menu-button:hover {
-    border: 1px solid rgba(255, 0, 112, 0.40);
-}
-
 .page.theme_dark .header__theme-menu-button:focus {
     outline: none;
     box-shadow: none;
-}
-
-.page.theme_dark .header__theme-menu-button:focus-visible {
-    border-bottom: var(--bg-accent-color) solid 1px;
-}
-
-.page.theme_dark .header__theme-menu-button_active {
-    border: 1px solid var(--bg-accent-color);
 }
 
 .page.theme_dark .header__title {
