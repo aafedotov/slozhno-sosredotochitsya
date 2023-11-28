@@ -12,6 +12,8 @@
     --button-focus-color: #353430;
     --header-bg-image: url("../images/cover-image-light.png");
     --content-header-color: #353430;
+    --link-color: #353430;
+    --link-shadow-color: #FF8DCB;
 }
 
 .page.theme_light .header__logo {
@@ -34,10 +36,11 @@
         --button-focus-color: #353430;
         --header-bg-image: url("../images/cover-image-light.png");
         --content-header-color: #353430;
+        --link-color: #353430;
+        --link-shadow-color: #FF8DCB;
     }
 
     .header__logo {
         display: none;
     }
 }
-

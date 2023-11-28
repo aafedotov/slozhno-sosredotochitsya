@@ -75,13 +75,17 @@
 
 .header__theme-menu-button {
     background: transparent;
+    cursor:pointer;
     border: 1px solid transparent;
     font-family: var(--main-font);
     font-size: 18px;
     color: var(--button-color);
     text-transform: lowercase;
     padding: 2px 13px;
+}
 
+.header__theme-menu-button_active {
+    pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
@@ -190,6 +194,30 @@
     margin-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.content__link {
+    text-decoration: none;
+    color: var(--link-color);
+    text-shadow: 2px 2px 0 var(--link-shadow-color);
+}
+
+.content__link:hover {
+    text-decoration: underline;
+}
+
+.content__link:focus {
+    text-decoration: none;
+}
+
+.content__link:focus-visible {
+    border: 1px solid var(--button-hover-color);
+}
+
+.content__link {
+    text-decoration: none;
+    color: var(--link-color);
+    text-shadow: 2px 2px 0 var(--link-shadow-color);
 }
 
 .content__section-header {
@@ -428,7 +456,7 @@
 
 .footer__title {
     color: var(--header-color);
-    text-shadow: 2px 2px 0px #FF0070;
+    text-shadow: 2px 2px 0 #FF0070;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: normal;
     font-weight: bold;
