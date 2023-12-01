@@ -226,6 +226,7 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
+    padding-bottom: 1px;
 }
 
 .content__section-text {
@@ -295,7 +296,7 @@
         margin-top: 38px;
     }
 
-    .content__section-what article {
+    .content__section-cards-columns {
         display: grid;
         grid-template-columns: repeat(3, minmax(315px, 1fr));
         gap: 20px;
@@ -341,10 +342,12 @@
 }
 
 .content__section-images-set {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
     display: flex;
     gap: 5px;
     flex-direction: column;
-    margin-top: 10px;
 }
 
 .content__section-image {
