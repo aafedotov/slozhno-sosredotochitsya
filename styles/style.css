@@ -5,20 +5,20 @@
     font-weight: normal;
     color: var(--text-color);
     background-color: var(--bg-color);
+    background-image: var(--header-bg-image);
+    background-position: top;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .header {
     display: grid;
     gap: 55px;
-    max-height: 668px;
-    grid-template-rows: repeat(2, 1fr);
+    min-height: 668px;
+    max-height: 100vh;
+    grid-template-rows: 1fr 1fr min-content;
     padding: 10px 10px;
     position: relative;
-    background-image: var(--header-bg-image);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .header::after {
@@ -157,7 +157,7 @@
     .header__title-description {
         justify-self: end;
         width: 50%;
-        margin-bottom: 163px;
+
     }
 }
 
