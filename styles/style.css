@@ -296,10 +296,6 @@
         padding-top: 15px;
     }
 
-    .content__section-howto {
-        padding-top: 25px;
-    }
-
     .content__section-howto .content__section-header {
         margin-bottom: 20px;
     }
@@ -309,6 +305,7 @@
     }
 
     .content__section-howto {
+        padding-top: 25px;
         display: grid;
         gap: 20px;
         grid-template-columns: 1fr 2fr;
