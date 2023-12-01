@@ -123,70 +123,6 @@
     padding: 1px 0;
 }
 
-@media (width >= 768px) {
-
-    .header {
-        padding: 20px 20px;
-        min-height: 1024px;
-    }
-
-    .header::after, .footer::after {
-        top: 20px;
-        right: 20px;
-    }
-
-    .header::before, .footer.before {
-        bottom: 20px;
-        left: 20px;
-    }
-
-    .header__theme-menu {
-        margin-top: 110px;
-    }
-
-    .header__logo {
-        right: 30px;
-        top: 20px;
-    }
-
-    .header__title {
-        padding-top: 100px;
-        margin-left: -20px;
-    }
-
-    .header__title-description {
-        justify-self: end;
-        width: 50%;
-
-    }
-}
-
-@media (width >= 1024px) {
-
-    .header {
-        min-height: 768px;
-    }
-
-    .header__theme-menu {
-        justify-self: center;
-        padding-top: 0;
-        margin-top: 0;
-    }
-
-    .header__title {
-        padding-top: 30px;
-        font-size: 157px;
-    }
-
-    .header__theme-menu-list {
-        flex-direction: row;
-    }
-
-    .header__title-description {
-        margin-bottom: 110px;
-    }
-}
-
 .content {
     margin-top: 40px;
     padding-left: 10px;
@@ -233,7 +169,104 @@
     line-height: 130%;
 }
 
+.content__section-what {
+    margin-top: 50px;
+}
+
+.content__section-howto {
+    margin-top: 50px;
+}
+
+.content__section-howto .content__section-text-header {
+    font-weight: normal;
+}
+
+.content__section-text-header.text-header-bold {
+    font-weight: bold;
+}
+
+.content__section-images {
+    margin-top: 60px;
+}
+
+.content__section-images-set {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.content__section-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 667px;
+    position: relative;
+
+}
+
+.footer__title {
+    color: var(--header-color);
+    text-shadow: 2px 2px 0 #FF0070;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 82.5%;
+
+}
+
 @media (width >= 768px) {
+
+    .header {
+        padding: 20px 20px;
+        min-height: 1024px;
+    }
+
+    .header::after, .footer::after {
+        top: 20px;
+        right: 20px;
+    }
+
+    .header::before, .footer.before {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .header__theme-menu {
+        margin-top: 110px;
+    }
+
+    .header__logo {
+        right: 30px;
+        top: 20px;
+    }
+
+    .header__title {
+        padding-top: 100px;
+        margin-left: -20px;
+    }
+
+    .header__title-description {
+        justify-self: end;
+        width: 50%;
+
+    }
+
+    .content__section-what .content__section-header {
+        margin-bottom: 20px;
+    }
 
     .content {
         padding-left: 20px;
@@ -266,61 +299,6 @@
     .content__section-howto {
         padding-top: 25px;
     }
-}
-
-.content__section-what {
-    margin-top: 50px;
-}
-
-
-@media (width >= 768px) {
-    .content__section-what .content__section-header {
-        margin-bottom: 20px;
-    }
-}
-
-@media (width >= 1024px) {
-
-    .content__section-reasons {
-        gap: 10px;
-        margin-top: 5px;
-
-    }
-
-    .content__section-header {
-        max-width: 315px;
-    }
-
-    .content__section-what {
-        gap: 0;
-        margin-top: 38px;
-    }
-
-    .content__section-cards-columns {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(315px, 1fr));
-        gap: 20px;
-    }
-
-    .content__section-what .content__section-header {
-        margin-bottom: 20px;
-        max-width: 315px;
-    }
-}
-
-.content__section-howto {
-    margin-top: 50px;
-}
-
-.content__section-howto .content__section-text-header {
-    font-weight: normal;
-}
-
-.content__section-text-header.text-header-bold {
-    font-weight: bold;
-}
-
-@media (width >= 768px) {
 
     .content__section-howto .content__section-header {
         margin-bottom: 20px;
@@ -335,28 +313,6 @@
         gap: 20px;
         grid-template-columns: 1fr 2fr;
     }
-}
-
-.content__section-images {
-    margin-top: 60px;
-}
-
-.content__section-images-set {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0 0 0;
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
-}
-
-.content__section-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-@media (width >= 768px) {
 
     .content__section-images-set {
         padding-top: 15px;
@@ -398,45 +354,6 @@
         object-fit: cover;
     }
 
-}
-
-@media (width >= 1024px) {
-
-    .content__section-howto {
-        margin-top: 40px;
-        gap: 10px;
-    }
-
-    .content__section-images-set {
-        height: 1060px;
-    }
-}
-
-.footer {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin-top: 35px;
-    padding: 10px 10px;
-    justify-content: center;
-    align-items: center;
-    min-height: 667px;
-    position: relative;
-
-}
-
-.footer__title {
-    color: var(--header-color);
-    text-shadow: 2px 2px 0 #FF0070;
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    font-style: normal;
-    font-weight: bold;
-    line-height: 82.5%;
-
-}
-
-@media (width >= 768px) {
-
     .footer {
         margin-top: 60px;
         min-height: 1024px;
@@ -448,6 +365,64 @@
 }
 
 @media (width >= 1024px) {
+
+    .header {
+        min-height: 768px;
+    }
+
+    .header__theme-menu {
+        justify-self: center;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .header__title {
+        padding-top: 30px;
+        font-size: 157px;
+    }
+
+    .header__theme-menu-list {
+        flex-direction: row;
+    }
+
+    .header__title-description {
+        margin-bottom: 110px;
+    }
+
+    .content__section-reasons {
+        gap: 10px;
+        margin-top: 5px;
+
+    }
+
+    .content__section-header {
+        max-width: 315px;
+    }
+
+    .content__section-what {
+        gap: 0;
+        margin-top: 38px;
+    }
+
+    .content__section-cards-columns {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(315px, 1fr));
+        gap: 20px;
+    }
+
+    .content__section-what .content__section-header {
+        margin-bottom: 20px;
+        max-width: 315px;
+    }
+
+    .content__section-howto {
+        margin-top: 40px;
+        gap: 10px;
+    }
+
+    .content__section-images-set {
+        height: 1060px;
+    }
 
     .footer {
         min-height: 768px;
