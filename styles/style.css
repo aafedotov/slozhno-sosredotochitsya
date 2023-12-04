@@ -6,7 +6,8 @@
     color: var(--text-color);
     background-color: var(--bg-color);
     background-image: var(--header-bg-image);
-    background-position: top;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
