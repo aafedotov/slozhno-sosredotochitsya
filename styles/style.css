@@ -155,7 +155,7 @@
 .content__section-cards {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .content__section-card {
