@@ -123,7 +123,7 @@
     font-weight: bold;
     line-height: 23px;
     background-color: var(--bg-accent-color);
-    margin-bottom: 66px;
+    margin-bottom: 50px;
     font-size: 18px;
     padding: 1px 0;
 }
@@ -191,7 +191,7 @@
 }
 
 .content__section-howto {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .content__section-howto .content__section-text-header {
@@ -203,7 +203,7 @@
 }
 
 .content__section-images {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .content__section-images-set {
