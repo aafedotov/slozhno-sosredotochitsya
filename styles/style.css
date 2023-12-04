@@ -259,6 +259,7 @@
 
     .header__theme-menu {
         align-self: center;
+        padding-top: 0;
     }
 
     .header__logo {
