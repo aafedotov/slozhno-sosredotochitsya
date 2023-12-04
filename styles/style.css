@@ -177,6 +177,9 @@
 
 .content__section-what {
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .content__section-howto {
@@ -316,7 +319,7 @@
         padding-top: 15px;
         display: grid;
         gap: 20px;
-        height: 100vw;
+        height: 105vw;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         grid-template-areas:
@@ -409,6 +412,10 @@
     .content__section-howto {
         margin-top: 40px;
         gap: 10px;
+    }
+
+    .content__section-images-set {
+        height: 100vw;
     }
 
     .footer {
