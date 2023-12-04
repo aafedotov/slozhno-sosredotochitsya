@@ -16,7 +16,7 @@
     display: grid;
     gap: 55px;
     min-height: 668px;
-    max-height: 100vh;
+    height: 100vh;
     grid-template-rows: 1fr 1fr min-content;
     padding: 10px 10px;
     position: relative;
