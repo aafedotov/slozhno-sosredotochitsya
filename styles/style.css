@@ -169,7 +169,7 @@
     line-height: 23px;
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 
 .content__section-text-header {
@@ -292,15 +292,7 @@
         margin-top: 0;
     }
 
-    .content__section-what {
-
-    }
-
     .content__section-howto .content__section-header {
-        margin-bottom: 20px;
-    }
-
-    .text-header-bold {
         margin-bottom: 20px;
     }
 
