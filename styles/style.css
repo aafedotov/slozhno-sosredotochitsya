@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.header::after, .footer::after {
+.decorated-zone::after {
     content: "";
     width: 25px;
     height: 25px;
@@ -34,7 +34,7 @@
     right: 10px;
 }
 
-.header::before, .footer::before {
+.decorated-zone::before {
     content: "";
     width: 25px;
     height: 25px;
