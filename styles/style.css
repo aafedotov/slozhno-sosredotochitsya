@@ -184,11 +184,6 @@
     line-height: 130%;
 }
 
-.content__section-what {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 
 .content__section-howto .content__section-text-header {
     font-weight: normal;
