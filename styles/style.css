@@ -107,7 +107,7 @@
 .header__title {
     color: var(--header-color);
     text-shadow: 4px 4px 0 var(--bg-accent-color);
-    font-size: clamp(7.25rem, 5.769rem + 6.317vw, 9.813rem);
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: normal;
     font-weight: bold;
     line-height: 82%;
@@ -264,6 +264,7 @@
     .header__title {
         margin-left: -20px;
         align-self: start;
+        font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     }
 
     .header__title-description {
