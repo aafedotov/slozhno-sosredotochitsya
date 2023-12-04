@@ -25,6 +25,9 @@
 .content {
     padding: 0 10px;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .decorated-zone::after {
@@ -123,7 +126,7 @@
     font-weight: bold;
     line-height: 23px;
     background-color: var(--bg-accent-color);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 18px;
     padding: 1px 0;
 }
@@ -184,14 +187,9 @@
 }
 
 .content__section-what {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.content__section-howto {
-    margin-top: 45px;
 }
 
 .content__section-howto .content__section-text-header {
@@ -200,10 +198,6 @@
 
 .content__section-howto .text-header-bold {
     font-weight: bold;
-}
-
-.content__section-images {
-    margin-top: 50px;
 }
 
 .content__section-images-set {
@@ -247,6 +241,7 @@
 
     .content {
         padding: 20px 20px 0 20px;
+        gap: 80px;
     }
 
     .header {
@@ -311,7 +306,6 @@
     }
 
     .content__section-howto {
-        padding-top: 25px;
         display: grid;
         gap: 20px;
         grid-template-columns: 1fr 2fr;
@@ -413,7 +407,6 @@
     }
 
     .content__section-howto {
-        margin-top: 40px;
         gap: 10px;
     }
 
