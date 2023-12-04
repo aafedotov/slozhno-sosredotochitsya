@@ -245,18 +245,18 @@
         padding: 20px 20px;
     }
 
-    .header::after, .footer::after {
+    .decorated-zone::after {
         top: 20px;
         right: 20px;
     }
 
-    .header::before, .footer.before {
+    .decorated-zone::before {
         bottom: 20px;
         left: 20px;
     }
 
     .header__theme-menu {
-        margin-top: 110px;
+        align-self: center;
     }
 
     .header__logo {
