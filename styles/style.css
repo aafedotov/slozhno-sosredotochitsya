@@ -244,7 +244,7 @@
 
     .header {
         min-height: 1024px;
-        padding: 0 20px;
+        padding: 20px 0 20px;
     }
 
     .decorated-zone::after {
@@ -259,7 +259,7 @@
 
     .header__theme-menu {
         align-self: center;
-        padding-top: 0;
+        padding-top: 8px;
     }
 
     .header__logo {
@@ -276,6 +276,7 @@
     .header__title-description {
         justify-self: end;
         width: 50%;
+        align-self: center;
     }
 
     .content__section-header {
