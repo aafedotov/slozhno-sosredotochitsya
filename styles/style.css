@@ -169,6 +169,7 @@
     line-height: 23px;
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .content__section-text-header {
@@ -177,7 +178,6 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
-
 }
 
 .content__section-text {
