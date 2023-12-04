@@ -25,6 +25,7 @@
 
 .content {
     padding: 10px 10px;
+    margin-top: 40px;
 }
 
 .decorated-zone::after {
@@ -126,10 +127,6 @@
     margin-bottom: 66px;
     font-size: 18px;
     padding: 1px 0;
-}
-
-.content {
-    margin-top: 40px;
 }
 
 .content__link {
