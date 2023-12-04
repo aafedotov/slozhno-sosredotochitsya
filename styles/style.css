@@ -17,7 +17,8 @@
     gap: 55px;
     min-height: 668px;
     height: 100vh;
-    grid-template-rows: 1fr 1fr min-content;
+    grid-template-rows: 1fr min-content 1fr;
+    align-items: center;
     padding: 10px 10px;
     position: relative;
 }
