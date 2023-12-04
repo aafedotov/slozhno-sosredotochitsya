@@ -136,8 +136,13 @@
 }
 
 .content__link:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid var(--link-color);
 }
+
+/*
+Комментарий ревьювера: Дефолтную рамку при фокусе нужно переопределить на параметры по макету
+Мой ответ: но дефолтная рамка же уже была сброшена и переопределена, два селектора ниже
+ */
 
 .content__link:focus {
     text-decoration: none;
