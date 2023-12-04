@@ -15,7 +15,6 @@
 .header {
     display: grid;
     padding: 10px 10px;
-    gap: 55px;
     min-height: 668px;
     height: 100vh;
     grid-template-rows: 1fr min-content 1fr;
@@ -185,7 +184,7 @@
 }
 
 .content__section-what {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 10px;
