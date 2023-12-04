@@ -12,6 +12,10 @@
     background-attachment: fixed;
 }
 
+.content {
+    padding: 10px 10px;
+}
+
 .header {
     display: grid;
     gap: 55px;
@@ -19,7 +23,6 @@
     height: 100vh;
     grid-template-rows: 1fr min-content 1fr;
     align-items: center;
-    padding: 10px 10px;
     position: relative;
 }
 
@@ -237,8 +240,11 @@
 
 @media (width >= 768px) {
 
-    .header {
+    .content {
         padding: 20px 20px;
+    }
+
+    .header {
         min-height: 1024px;
     }
 
@@ -270,13 +276,6 @@
     .header__title-description {
         justify-self: end;
         width: 50%;
-
-    }
-
-    .content {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
     }
 
     .content__section-header {
