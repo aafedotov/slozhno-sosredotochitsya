@@ -375,6 +375,7 @@
     }
 
     .header__theme-menu {
+        align-self: start;
         justify-self: center;
         padding-top: 0;
         margin-top: 0;
