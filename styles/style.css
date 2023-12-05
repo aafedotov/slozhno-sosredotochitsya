@@ -91,7 +91,7 @@
     font-size: 18px;
     color: var(--button-color);
     text-transform: lowercase;
-    padding: 2px 13px;
+    padding: 0 13px;
 }
 
 .header__theme-menu-button:hover {
@@ -184,7 +184,6 @@
     line-height: 130%;
 }
 
-
 .content__section-howto .content__section-text-header {
     font-weight: normal;
 }
@@ -194,10 +193,15 @@
     margin-top: 5px;
 }
 
+.content__section-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .content__section-images-set {
     list-style-type: none;
     padding: 0;
-    margin: 10px 0 0 0;
     display: flex;
     gap: 5px;
     flex-direction: column;
@@ -358,6 +362,7 @@
 
     .header__title {
         align-self: center;
+        padding-bottom: 20px;
     }
 
     .header__theme-menu-list {
@@ -366,6 +371,7 @@
 
     .header__title-description {
         align-self: center;
+        margin-bottom: 35px;
     }
 
     .content__section-reasons {
@@ -373,13 +379,12 @@
         margin-top: 5px;
     }
 
-    .content__section-header {
-        max-width: 315px;
+    .content__section-howto .text-header-bold {
+        margin-top: 0;
     }
 
-    .content__section-what {
-        gap: 0;
-        margin-top: 38px;
+    .content__section-header {
+        max-width: 315px;
     }
 
     .content__section-cards-columns {
@@ -395,6 +400,14 @@
 
     .content__section-howto {
         gap: 10px;
+    }
+
+    .content__section-images {
+        gap: 5px;
+    }
+
+    .content__section-images-set {
+        height: 102vw;
     }
 
     .footer {
