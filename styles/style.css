@@ -357,7 +357,7 @@
     }
 
     .header__title {
-        padding-top: 30px;
+        align-self: center;
     }
 
     .header__theme-menu-list {
@@ -365,7 +365,7 @@
     }
 
     .header__title-description {
-        margin-bottom: 110px;
+        align-self: center;
     }
 
     .content__section-reasons {
