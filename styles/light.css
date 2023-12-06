@@ -14,6 +14,7 @@
     --content-header-color: #353430;
     --link-color: #353430;
     --link-shadow-color: #FF8DCB;
+    --link-focus-color: #353430;
 }
 
 .page.theme_light .header__logo {
@@ -38,6 +39,7 @@
         --content-header-color: #353430;
         --link-color: #353430;
         --link-shadow-color: #FF8DCB;
+        --link-focus-color: #353430;
     }
 
     .header__logo {
