@@ -237,8 +237,7 @@
 @media (width >= 768px) {
 
     .header {
-        min-height: 1024px;
-        padding: 20px 20px 0 20px;
+        padding: 20px 20px;
     }
 
     .decorated-zone::after {
@@ -264,7 +263,7 @@
     .header__title {
         margin-left: -20px;
         align-self: start;
-        font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+        font-size: clamp(7.5rem, 0.4225rem + 14.4531vw, 9.8125rem);
     }
 
     .header__title-description {
@@ -302,8 +301,11 @@
         grid-template-columns: 1fr 2fr;
     }
 
+    .content__section-images {
+        gap: 20px
+    }
+
     .content__section-images-set {
-        margin-top: 8px;
         display: grid;
         gap: 23px;
         grid-template-rows: repeat(3, minmax(min-content, max-content));
