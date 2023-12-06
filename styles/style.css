@@ -279,6 +279,7 @@
 
     .content__section-header {
         max-width: 236px;
+        margin-bottom: 0;
     }
 
     .content__section-reasons {
@@ -289,10 +290,6 @@
 
     .content__section-text-header {
         margin-top: 0;
-    }
-
-    .content__section-howto .content__section-header {
-        margin-bottom: 20px;
     }
 
     .content__section-howto {
