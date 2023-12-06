@@ -277,8 +277,12 @@
         gap: 80px;
     }
 
-    .content__section-header {
+    .content__section-howto .content__section-header {
         max-width: 236px;
+        margin-bottom: 0;
+    }
+
+    .content__section-reasons .content__section-header {
         margin-bottom: 0;
     }
 
@@ -373,7 +377,6 @@
 
     .content__section-reasons {
         gap: 10px;
-        margin-top: 5px;
     }
 
     .content__section-howto .text-header-bold {
