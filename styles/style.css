@@ -366,7 +366,6 @@
 
     .header__title {
         align-self: center;
-        padding-bottom: 20px;
     }
 
     .header__theme-menu-list {
@@ -375,7 +374,6 @@
 
     .header__title-description {
         align-self: center;
-        margin-bottom: 35px;
     }
 
     .content__section-reasons {
@@ -402,11 +400,7 @@
     }
 
     .content__section-howto {
-        gap: 10px;
-    }
-
-    .content__section-images {
-        gap: 10px;
+        gap: 15px;
     }
 
     .footer {
