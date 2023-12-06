@@ -277,8 +277,11 @@
         gap: 80px;
     }
 
-    .content__section-howto .content__section-header {
+    .content__section-what .content__section-header {
         max-width: 236px;
+    }
+
+    .content__section-howto .content__section-header {
         margin-bottom: 0;
     }
 
