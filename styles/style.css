@@ -72,8 +72,7 @@
 
 .header__theme-menu {
     justify-self: end;
-    padding-top: 60px;
-    align-self: start;
+    align-self: center;
 }
 
 .header__theme-menu-list {
