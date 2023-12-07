@@ -405,5 +405,10 @@
 
     .footer {
         min-height: 768px;
+        margin-top: 62px;
+    }
+
+    .footer__title {
+        margin-top: -12px;
     }
 }
