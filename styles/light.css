@@ -2,6 +2,7 @@
     --bg-color: #FFF1F7;
     --main-font: IBM Plex Mono, sans-serif;
     --bg-accent-color: #FF8DCB;
+    --header-shadow-color: #FF0070;
     --text-color: #353430;
     --accent-color: #353430;
     --header-color: #FFC2E6;
@@ -27,6 +28,7 @@
         --bg-color: #FFF1F7;
         --main-font: IBM Plex Mono, sans-serif;
         --bg-accent-color: #FF8DCB;
+        --header-shadow-color: #FF0070;
         --text-color: #353430;
         --accent-color: #353430;
         --header-color: #FFC2E6;

@@ -116,7 +116,7 @@
 
 .header__title {
     color: var(--header-color);
-    text-shadow: 4px 4px 0 var(--bg-accent-color);
+    text-shadow: 4px 4px 0 var(--header-shadow-color);
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: normal;
     font-weight: bold;
@@ -229,7 +229,7 @@
 
 .footer__title {
     color: var(--header-color);
-    text-shadow: 2px 2px 0 var(--bg-accent-color);
+    text-shadow: 2px 2px 0 var(--header-shadow-color);
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: normal;
     font-weight: bold;
