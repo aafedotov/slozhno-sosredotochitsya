@@ -397,16 +397,20 @@
     }
 
     .content__section-what .content__section-header {
-        margin-bottom: 20px;
+        margin-bottom: 22px;
         max-width: 315px;
     }
 
     .content__section-howto {
-        gap: 15px;
+        gap: 10px;
     }
 
     .footer {
         min-height: 768px;
-        margin-top: 62px;
+        margin-top: 60px;
+    }
+
+    .footer__title {
+        padding-top: 0;
     }
 }
