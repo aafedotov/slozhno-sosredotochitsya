@@ -19,7 +19,6 @@
     height: 100vh;
     grid-template-rows: 1fr min-content 1fr;
     align-items: center;
-    grid-row-gap: 8px;
     position: relative;
 }
 
@@ -127,6 +126,7 @@
     line-height: 23px;
     background-color: var(--bg-accent-color);
     font-size: 18px;
+    align-self: center;
 }
 
 .content__link {
