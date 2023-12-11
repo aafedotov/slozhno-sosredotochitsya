@@ -15,6 +15,7 @@
 .header {
     display: grid;
     padding: 10px 10px 0 10px;
+    min-height: 668px;
     height: 100vh;
     grid-template-rows: 1fr min-content 1fr;
     align-items: center;
@@ -126,7 +127,6 @@
     line-height: 23px;
     background-color: var(--bg-accent-color);
     font-size: 18px;
-    margin-top: -25px;
 }
 
 .content__link {
@@ -360,7 +360,6 @@
     .header__theme-menu {
         align-self: start;
         justify-self: center;
-        padding-top: 0;
         margin-top: 0;
     }
 
@@ -409,6 +408,6 @@
     }
 
     .footer__title {
-        margin-top: -12px;
+
     }
 }
