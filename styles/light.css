@@ -57,7 +57,7 @@
 
     @media (width >= 1024px) {
 
-        .page.theme_light {
+        .page {
             --header-shadow-color: #FF0070;
         }
     }
